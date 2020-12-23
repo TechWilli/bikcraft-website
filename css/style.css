@@ -2,6 +2,21 @@
   --primaryYellow: #FEC63E;
 }
 
+::-webkit-scrollbar {
+  width: .7rem;
+  height: .7rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(220, 220, 220);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: .35rem;
+  background-color: grey;
+  border: 3px solid rgb(220, 220, 220);
+}
+
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -256,7 +271,7 @@ img {
 
 .produtos-icone {
   background-color: #000000;
-  padding: 20px;
+  padding: 52px;
 }
 
 .call {
