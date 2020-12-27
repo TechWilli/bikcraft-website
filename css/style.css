@@ -148,12 +148,22 @@ img {
   width: 100%;
 }
 
+.header-menu ul li .menu-ativo {
+  cursor: pointer;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .header-menu ul li .menu-ativo::after {
   content: "";
   display: block;
   width: 100%;
   height: 3px;
-  background-color: black;
+  background-color: #FFFFFF;
   transition: width .2s ease-out;
 }
 
