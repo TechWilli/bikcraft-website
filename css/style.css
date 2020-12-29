@@ -97,6 +97,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 /* Header */
@@ -281,7 +282,7 @@ img {
 
 .produtos-icone {
   background-color: #000000;
-  padding: 52px;
+  padding: 20px;
 }
 
 .call {

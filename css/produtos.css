@@ -104,7 +104,7 @@
 .form input {
   display: block;
   width: 100%;
-  border: 4px solid var(--primaryYellow);
+  border: 3px solid var(--primaryYellow);
   background-color: transparent;
   color: #FFFFFF;
   outline: none;
@@ -112,6 +112,11 @@
   margin-bottom: 10px;
   font-size: 14px;
   font-family: Georgia, 'Times New Roman', serif;
+  transition: box-shadow .25s ease-in;
+}
+
+.form input:focus {
+  box-shadow: 0 0 0 4px #fec43e7c;
 }
 
 .form textarea {
@@ -126,11 +131,17 @@
   margin-bottom: 20px;
   font-size: 14px;
   font-family: Georgia, 'Times New Roman', serif;
+  transition: box-shadow .25s ease-in;
+}
+
+.form textarea:focus {
+  box-shadow: 0 0 0 4px #fec43e7c;
 }
 
 .form button {
   background-color: transparent;
   padding: 7px 40px;
+  cursor: pointer;
 }
 
 .orcamento-dados {
