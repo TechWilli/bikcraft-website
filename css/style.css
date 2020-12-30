@@ -258,6 +258,10 @@ img {
   box-shadow: 2px 4px 10px rgb(0, 0, 0, .2);
 }
 
+.produtos-lista li img {
+  margin: 0 auto;
+}
+
 .produtos-lista li h3 {
   font-weight: bold;
   font-size: 18px;
