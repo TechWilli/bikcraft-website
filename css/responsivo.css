@@ -57,6 +57,10 @@
 		background-size: cover;
 	}
 
+	.introducao-interna {
+		margin-top: 0;
+	}
+
 	.introducao h1 {
 		font-size: 36px;
 	}
@@ -69,5 +73,17 @@
 	/* Home > Qualidade */
 	.qualidade::after {
 		display: none;
+	}
+
+	/* Sobre */
+	.missao-sobre p {
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 0;
+	}
+
+	.missao-sobre ul li {
+		font-size: 14px;
+		line-height: 25px;
 	}
 }
