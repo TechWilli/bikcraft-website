@@ -17,3 +17,9 @@ if (window.SimpleSlide) {
     pauseOnHover: false, // pausa a transição automática
   })
 }
+
+// instruções do plugin de animações retiradas em https://github.com/origamid/simple-anime
+
+if (window.SimpleAnime) {
+  new SimpleAnime()
+}
